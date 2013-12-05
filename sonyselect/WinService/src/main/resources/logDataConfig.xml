@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LogConfig>
+	<LogFiles parseLines="4">
+		<LogLinesParser>
+			<delimiter userlog="false" use="2">SPACE,COMMA</delimiter>
+			<delimiter userlog="true">VLINE,EQUALS</delimiter>
+			<delimiter userlog="false" use="NONE"></delimiter>
+		</LogLinesParser>
+		<LogFile logType="PV" colomns="10">
+		<!-- LogLinesParse 可以使用Parent的，如果有则覆盖Parent -->
+			<LogLinesParser>
+				<delimiter userlog="false" use="2">SPACE,COMMA</delimiter>
+				<delimiter userlog="true">VLINE,EQUALS</delimiter>
+				<delimiter userlog="false" use="NONE"></delimiter>
+			</LogLinesParser>
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.util.Date" key="date" />
+			<LogData type="java.lang.Integer" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+			<LogData type="java.lang.String" key="ddd" length="12" />
+		</LogFile>
+	</LogFiles>
+</LogConfig>
